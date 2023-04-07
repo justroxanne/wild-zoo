@@ -18,4 +18,4 @@ function Animal({name, species, age, image}) {
     )
 }
 
-export default Animal
+export default Animal;
