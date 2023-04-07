@@ -5,6 +5,7 @@
   --second-color: #EBFEF5;
   --third-color: #00A876;
   --fourth-color: #DEB887;
+  --main-font: Schibsted Grotesk;
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 h1, h2, h3, a {
-  font-family: Schibsted Grotesk;
+  font-family: var(--main-font);
 }
 
 h2{
