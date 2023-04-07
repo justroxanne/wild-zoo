@@ -1,0 +1,29 @@
+.Navbar{
+    height: 12vh;
+    display: flex;
+    background-color: var(--second-color);
+
+}
+
+.logo{
+    height: 100%;
+    padding-left: 1vw;
+}
+
+.navigation{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation a, p{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.2em;
+}
+
+.navigation a:hover{
+    color: var(--fourth-color);
+}
+
