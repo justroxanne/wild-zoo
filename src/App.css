@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap');
+
+:root{
+  --main-color: #558572;
+  --second-color: #EBFEF5;
+  --third-color: #00A876;
+  --fourth-color: #DEB887;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, a {
+  font-family: Schibsted Grotesk;
+}
+
+h2{
+  color: var(--main-color);
+}
